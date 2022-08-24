@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+    color: #fff;
+    text-align: justify;
+    padding-top: 50px;
+}
+nav{
+    background-color: #7a1f1e;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+ul li a{
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+#img-div{
+    background-color:  aliceblue;
+    color: #000;
+    padding: 20px;
+    margin: 15px auto 0;
+    text-align: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+#img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#tribute-info{
+    max-width: 100%;
+    margin: 0 10px;
+}
+section{
+    padding: 20px;
+    margin: 15px auto 0;
+}
+h1{
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+h2{
+    text-align: center;
+}
+.video-wrapper{
+    margin: 15px;
+    display: block;
+}
+.twitter-tweet{
+    width: 50vw !important;
+    height: auto;
+}
+footer{
+    background-color:#7a1f1e;
+    padding: 15px;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-instagram {
+    color: #fff;
+  }
+  .fa-twitter {
+    color: #fff;
+  }
+.social-ul a{
+    font-size: 32px;
+}
+.popular{
+    padding-left: 15px;
+}
+#nat{
+    background-color: #000;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 2px;
+    color: #fff ;
+}
