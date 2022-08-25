@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <!-- Contains metadata(data about data), titles and the external stylesheets  --> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euphoria Survey</title>
+    <link rel = 'stylesheet' href = 'survey.css'/>
+ </head>
+ <body>
+<div class = "container">
+ <header class = "header">
+   <h1 id = "title" class = "text-center">
+    Euphoria Survey Form
+ </h1>
+ <p id = "description" class = "decription text-center"><i>Thank you for taking the time to help us improve our services </i></p>
+</header>
+ <form id = "survey-form">
+   <div class = "form-control">
+      <label for="name" id = "name-label">Name</label> <input type="text" id = "name" placeholder = "Enter your name" required>
+   </div>
+   <!--Email-->
+   <div class = "form-control">
+      <label for="email" id = "email-label">Email</label> <input type="email" id = "email" placeholder = "Enter your email" required>
+   </div>
+   <!--Age-->
+   <div class = "form-control">
+      <label for="age" id = "age-label">Age</label> <input type="number" id = "age" placeholder = "Enter your age" min="10" max="90">
+   </div>
+   <!--Visit-->
+   <div class = "form-control">
+      <label for="role" id = "role-label">With whom did you visit us?</label>
+       <select name="role" id="role"><option value="On a school/college trip">On a school/college trip</option>
+       <option value="With family">With family</option>
+       <option value="With friends">With friends</option>
+       <option value="By yourself">By yourself</option>
+       <option value="Other">Other</option>
+       </select>
+   </div>
+   <!--Recommend-->
+   <div class="form-control">
+      <label>Will you recommend Euphoria to a friend?</label>
+      <label for="recommend-1"><input type="radio" id = "recommend-1" name = "recommend">Definitely</label>
+      <label for="recommend-2"><input type="radio" id = "recommend-2" name = "recommend">Maybe</label>
+      <label for="recommend-3"><input type="radio" id = "recommend-3" name = "recommend">Not sure</label>
+   </div>
+   <!--Feature-->
+   <div class = "form-control">
+      <label for="feature" id = "feature-label">What is your favorite part of our theme park?</label>
+       <select name="feature" id="feature"><option value="Food stalls">Food stalls</option>
+       <option value="Games">Games</option>
+       <option value="Rides">Rides</option>
+       </select>
+   </div>
+   <!--Enjoy-->
+   <div class="form-control">
+      <label>What activity did you enjoy the most?<small>(You can select more than one, if you had a lot of fun!😎)</small></label>
+      <label for="enjoy-1"><input type = "checkbox" name = "enjoy" id = "enjoy-1" value = "enjoy">ICELOPE 🍧</label>
+      <label for="enjoy-2"><input type = "checkbox" name = "enjoy" id = "enjoy-2" value = "enjoy">TheCottonCandyShop 🍭</label>
+      <label for="enjoy-3"><input type = "checkbox" name = "enjoy" id = "enjoy-3" value = "enjoy">ItalianOven 🍕</label>
+      <label for="enjoy-4"><input type = "checkbox" name = "enjoy" id = "enjoy-4" value = "enjoy">BakeIt! 🍰</label>
+      <label for="enjoy-5"><input type = "checkbox" name = "enjoy" id = "enjoy-5" value = "enjoy">GRYFFERINE 🦁</label> 
+      <label for="enjoy-6"><input type = "checkbox" name = "enjoy" id = "enjoy-6" value = "enjoy">D&D 🐉</label>
+      <label for="enjoy-7"><input type = "checkbox" name = "enjoy" id = "enjoy-7" value = "enjoy">DiamondRush 💎</label>
+      <label for="enjoy-8"><input type = "checkbox" name = "enjoy" id = "enjoy-8" value = "enjoy">Java 🌔</label>
+      <label for="enjoy-9"><input type = "checkbox" name = "enjoy" id = "enjoy-9" value = "enjoy">Pacific Playland 🌊</label>
+      <label for="enjoy-10"><input type = "checkbox" name = "enjoy" id = "enjoy-10" value = "enjoy">HailHydra ☠️</label>
+      <label for="enjoy-11"><input type = "checkbox" name = "enjoy" id = "enjoy-11" value = "enjoy">πThon 🐍</label>
+      <label for="enjoy-12"><input type = "checkbox" name = "enjoy" id = "enjoy-12" value = "enjoy">Ragnarok 🎢</label>
+   </div>
+   <!--Comments-->
+   <div class="form-control">
+      <label for="comments">Any comments or suggestions?</label>
+      <textarea name="comments" id="comments" placeholder="Enter your comment here..."></textarea>
+   </div>
+   <!--Submit-->
+   <button type="submit" value="submit">Submit</button>
+ </form>
+</div>
+</body>
+</html>
