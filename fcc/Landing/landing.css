@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+nav{
+    background-color: #1C3879;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #F9F5EB;
+}
