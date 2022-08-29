@@ -6,26 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="landing.css">
+<body>
+<!--header-->
 <header id = "header">
     <nav>
-        <a href="#home" class="nav-link">About</a>
+        <a href="#header" class="nav-link">About</a>
         <a href="#features" class="nav-link">Features</a>
-        <a href="#video" class="nav-link">Video</a>
-        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#video" class="nav-link">Travel</a>
+        <a href="#form" class="nav-link">Form</a>
     </nav>
     <div class="container">
-        <div>
+        <div class = "header-left">
             <h1> Winter Wonders ☃️</h1>
             <p> Winter is coming! And so are the cold shivers. This winter, we not only require the warmth, but also some wonders. This website is the perfect place where you can find all the necessary items that are required in this season of warmth and wishes.</p>
-            <a href = "#" class = "btn">Click here</a>
+            <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" class = "btn" target ="_blank">Click here</a>
         </div>
-        <div>
+        <div class = "header-right">
             <img src = "https://images.pexels.com/photos/94842/pexels-photo-94842.jpeg?auto=compress&cs=tinysrgb&w=600" alt = "Winter image">
         </div>
     </div>
 </header>
+<!--Blog cards-->
+    <section id = "features">
+        <h2>Features</h2>
+        <div class = "container">
+        <div class="feature">
+            <i class="fa fa-magic" aria-hidden="true"></i>
+            <h2>Cosmetics</h2>
+            <p>Hey, take a look at the earthlings. Goodbye! Eventually, you do plan to have dinosaurs on your dinosaur tour, right? Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.
+        </div>
+        <div class="feature">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            <h2>Wardrobe</h2>
+            <p>'Cause maybe if we screw up this planet enough, they won't want it anymore! Do you have any idea how long it takes those cups to decompose. You really think you can fly that thing?</p>
+        </div>
+        <div class="feature">
+            <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+            <h2>Aesthetics</h2>
+            <p>God creates Man. Man destroys God. Man creates Dinosaurs. Checkmate... They're using our own satellites against us. And the clock is ticking. Just my luck, no ice. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows.</p></p>
+        </div>
+    </div>
+    <!--Video-->
+    </section>
+    <section id = "video">
+        <h2>Travel</h2>
+        <div class="container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CZ33fX4c6kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!--Form-->
+    <section id = "form" class = "bg-lightblue">
+        <div class = "container">
+            <form action = "https://www.freecodecamp.com/email-submit">
+                <h2>Stay healthy, stay happy!</h2>
+                <div class = "flex">
+                    <input type="email" placeholder="Enter your email">
+                <button class = "btn btn-ghost">Submit</button>
+            </div>
+            </form>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        Made for freeCodeCamp<i class="fa fa-free-code-camp" aria-hidden="true"></i>.
+    </footer>
+</body>
+</html>
